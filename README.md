@@ -1,3 +1,6 @@
+# queueclient-web-v2
+This is a fork of queueclient-web, designed to use V2 of the Speedrun.com API. This will remain as a fork and has no intention to be merged into the original repo so as to have one on V1 and another on V2 as there's no telling to what will break at any point with SRC. Below is the original README of the repo.
+
 # queueclient-web
 This is designed to be an easily accessible method of displaying the speedrun.com verification queue for a particular game. It can be used both by the moderators/verifiers who examine the runs, as well as the runners who submit them.
 
