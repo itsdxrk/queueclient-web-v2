@@ -374,7 +374,6 @@
           } else if (code == -1) {
             errorMsg = `Queue for ${gameName} has more than 20000 runs. Could not fetch the entire queue.`;
           } else {
-            console.log(code);
             errorMsg = "Unknown error";
           }
           disp_error(errorMsg);
@@ -571,7 +570,6 @@
           user = playerList.find(p => p.id == user);
           let user_name = user["url"];
           let user_cc = user.areaId;
-          console.log(user);
           if (user["color1Id"]) {
             let start = user["color1Id"];
             let end = user["color2Id"] ?? user["color1Id"];
